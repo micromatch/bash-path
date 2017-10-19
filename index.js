@@ -7,7 +7,7 @@ var fs = require('fs');
 var bashPath;
 
 function getPath() {
-  return firstPath(envPath());
+  return firstPath(envPath() || 'bash');
 }
 
 function firstPath(arr) {
@@ -28,11 +28,6 @@ function firstPath(arr) {
       }
     }
   }
-
-  if (process.platform === 'darwin') {
-    return '/usr/local/bin/bash';
-  }
-  return 'bash';
 }
 
 Object.defineProperty(module, 'exports', {
