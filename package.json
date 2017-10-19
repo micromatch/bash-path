@@ -21,6 +21,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "arr-union": "^3.1.0",
     "is-windows": "^1.0.1"
   },
   "devDependencies": {
