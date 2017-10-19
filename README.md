@@ -22,6 +22,10 @@ console.log(bashPath);
 //=> '/usr/local/bin/bash'
 ```
 
+## Windows
+
+Only works on [Windows 10](https://msdn.microsoft.com/en-us/commandline/wsl/about?f=255&MSPPError=-2147217396) or later.
+
 ## About
 
 <details>
