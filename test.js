@@ -1,13 +1,12 @@
 'use strict';
 
 require('mocha');
-var assert = require('assert');
-var isWindows = require('is-windows');
-var bashPath = require('./');
+const assert = require('assert');
+const bashPath = require('./');
 
-describe('bash-path', function() {
-  it('should export a string', function() {
-    console.log(bashPath);
-    assert.equal(typeof bashPath, 'string');
+describe('bash-path', () => {
+  it('should export a function', () => {
+    console.log(bashPath());
+    assert.equal(typeof bashPath(), 'string');
   });
 });
