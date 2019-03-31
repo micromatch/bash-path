@@ -1,7 +1,7 @@
 {
   "name": "bash-path",
   "description": "Get the path to the bash binary on your OS.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/micromatch/bash-path",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "micromatch/bash-path",
@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "test": "mocha"
